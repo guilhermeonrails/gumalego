@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -c js/main.js)",
+      "Bash(node -c js/videos.js)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Read(//Users/mac/Desktop/**)",
+      "Read(//Users/mac/Downloads/**)",
+      "Read(//Users/mac/**)",
+      "Bash(python3 -c \"import playwright; print\\('playwright ok'\\)\")",
+      "Bash(python3 -c \"import selenium; print\\('selenium ok'\\)\")",
+      "Read(//Applications/**)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --screenshot=/private/tmp/claude-501/-Users-mac-Desktop-gustavo-portfolio/af972fc2-c1ab-429d-a85b-2a115bfb050d/scratchpad/hero.png --window-size=1440,1000 --hide-scrollbars http://localhost:8765/index.html)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless=new --disable-gpu --enable-unsafe-swiftshader --use-gl=angle --use-angle=swiftshader-webgl --screenshot=/private/tmp/claude-501/-Users-mac-Desktop-gustavo-portfolio/af972fc2-c1ab-429d-a85b-2a115bfb050d/scratchpad/hero2.png --window-size=1440,1000 --hide-scrollbars --virtual-time-budget=4000 --dump-dom http://localhost:8765/index.html)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless=new --disable-gpu --enable-unsafe-swiftshader --use-gl=angle --use-angle=swiftshader-webgl --screenshot=/private/tmp/claude-501/-Users-mac-Desktop-gustavo-portfolio/af972fc2-c1ab-429d-a85b-2a115bfb050d/scratchpad/hero3.png --window-size=1440,1000 --hide-scrollbars --virtual-time-budget=4000 http://localhost:8765/index.html)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless=new --disable-gpu --enable-unsafe-swiftshader --use-gl=angle --use-angle=swiftshader-webgl --screenshot=/private/tmp/claude-501/-Users-mac-Desktop-gustavo-portfolio/af972fc2-c1ab-429d-a85b-2a115bfb050d/scratchpad/trabalhos.png --window-size=1440,900 --hide-scrollbars --virtual-time-budget=4000 'http://localhost:8765/index.html#trabalhos')",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless=new --disable-gpu --screenshot=/private/tmp/claude-501/-Users-mac-Desktop-gustavo-portfolio/af972fc2-c1ab-429d-a85b-2a115bfb050d/scratchpad/contato.png --window-size=1440,900 --hide-scrollbars --virtual-time-budget=4000 'http://localhost:8765/index.html#contato')",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless=new --disable-gpu --enable-unsafe-swiftshader --use-gl=angle --use-angle=swiftshader-webgl --screenshot=/private/tmp/claude-501/-Users-mac-Desktop-gustavo-portfolio/af972fc2-c1ab-429d-a85b-2a115bfb050d/scratchpad/hero4.png --window-size=1440,900 --hide-scrollbars --virtual-time-budget=4000 http://localhost:8765/index.html)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless=new --disable-gpu --enable-unsafe-swiftshader --use-gl=angle --use-angle=swiftshader-webgl --screenshot=/private/tmp/claude-501/-Users-mac-Desktop-gustavo-portfolio/af972fc2-c1ab-429d-a85b-2a115bfb050d/scratchpad/hero5.png --window-size=1440,900 --hide-scrollbars --virtual-time-budget=4000 http://localhost:8765/index.html)"
+    ]
+  }
+}
