@@ -1,42 +1,20 @@
 # ============================================================
-#  VIDEOS.YAML — edite apenas este arquivo para gerenciar vídeos
+#  VIDEOS.YAML — cole o link do YouTube para adicionar um vídeo
 # ============================================================
 # Regra:
 #  - O PRIMEIRO item da lista é sempre o Demo Reel (aparece na Hero).
 #  - Todos os itens a partir do segundo aparecem, na ordem, no
 #    carrossel da seção "Trabalhos".
 #
-# Para adicionar um vídeo novo: copie um bloco "- title / youtube_id /
-# description" e cole o ID do YouTube. O ID é o trecho depois de:
-#  - "v="       na URL https://www.youtube.com/watch?v=ABC123
-#  - "/shorts/" na URL https://youtube.com/shorts/ABC123
+# Pode colar o link completo (watch?v=, youtu.be/, /shorts/) ou
+# apenas o ID do vídeo — os dois formatos funcionam.
 # ============================================================
 
 videos:
-  - title: "Demo Reel 2026"
-    youtube_id: "yPnMpKNPJ_w"
-    description: "Showreel com os principais trabalhos"
-
-  - title: "Corte Vertical 01"
-    youtube_id: "cdDGNxaiZ90"
-    description: "Edição para YouTube Shorts"
-
-  - title: "Corte Vertical 02"
-    youtube_id: "XUhtGM5uUHk"
-    description: "Edição para YouTube Shorts"
-
-  - title: "Corte Vertical 03"
-    youtube_id: "lDMsxaeW8ec"
-    description: "Edição para YouTube Shorts"
-
-  - title: "Corte Vertical 04"
-    youtube_id: "6egQChRUwSE"
-    description: "Edição para YouTube Shorts"
-
-  - title: "Corte Vertical 05"
-    youtube_id: "XIwoqisqwRw"
-    description: "Edição para YouTube Shorts"
-
-  - title: "Corte Vertical 06"
-    youtube_id: "5IxaXXfBBcs"
-    description: "Edição para YouTube Shorts"
+  - "https://www.youtube.com/watch?v=yPnMpKNPJ_w"
+  - "https://youtube.com/shorts/cdDGNxaiZ90?feature=share"
+  - "https://youtube.com/shorts/XUhtGM5uUHk?feature=share"
+  - "https://youtube.com/shorts/lDMsxaeW8ec?feature=share"
+  - "https://youtube.com/shorts/6egQChRUwSE?feature=share"
+  - "https://youtube.com/shorts/XIwoqisqwRw?feature=share"
+  - "https://youtube.com/shorts/5IxaXXfBBcs?feature=share"
